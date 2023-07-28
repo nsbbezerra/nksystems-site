@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className={`${karla.variable} ${share.variable}`}>
-      <body className={`bg-black`}>{children}</body>
+      <body className={`bg-zinc-50`}>{children}</body>
     </html>
   );
 }

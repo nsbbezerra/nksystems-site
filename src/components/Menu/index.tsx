@@ -43,12 +43,12 @@ export default function Menu() {
 
   return (
     <Fragment>
-      <nav className="fixed left-0 right-0 h-[70px] bg-black z-10 shadow-xl bg-opacity-40 backdrop-blur-md">
+      <nav className="fixed left-0 right-0 h-[70px] bg-black z-40 shadow-xl bg-opacity-80 backdrop-blur-md">
         <div className="container mx-auto max-w-6xl flex items-center h-full px-5 justify-between">
           <div className="flex items-center gap-16">
             <Link href={"/"} className="block w-20">
               <Image
-                src={"/img/logo-white.svg"}
+                src={"/img/logo.svg"}
                 width={841}
                 height={470}
                 alt="Logo NK Systems"
